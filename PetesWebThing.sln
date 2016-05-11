@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82A2A85B-0A7F-491D-AE33-E44E7648425C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B51A375D-EF8D-4A56-8552-722A50A76F9F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PetesWebThing", "src\PetesWebThing\PetesWebThing.xproj", "{BAD2AF70-2E95-4249-A152-EA640B4128DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD2AF70-2E95-4249-A152-EA640B4128DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD2AF70-2E95-4249-A152-EA640B4128DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD2AF70-2E95-4249-A152-EA640B4128DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD2AF70-2E95-4249-A152-EA640B4128DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAD2AF70-2E95-4249-A152-EA640B4128DC} = {82A2A85B-0A7F-491D-AE33-E44E7648425C}
+	EndGlobalSection
+EndGlobal
