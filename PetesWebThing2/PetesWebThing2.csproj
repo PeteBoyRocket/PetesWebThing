@@ -364,6 +364,10 @@
       <Project>{2e0e7c77-101d-4651-a163-35fcf783bde6}</Project>
       <Name>BusinessLogic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DBRepo\DBRepo.csproj">
+      <Project>{d3243bb9-86a6-436a-b9de-58c859c36be2}</Project>
+      <Name>DBRepo</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
