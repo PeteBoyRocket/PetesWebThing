@@ -10,7 +10,7 @@ namespace DBRepo
 		{
 			using (var cardsContext = new CardsContext())
 			{
-				return cardsContext.Blacks.Select(o => o.Sentence);
+				return cardsContext.Blacks.Select(o => o.Sentence).ToList();
 			}
 		}
 	}
