@@ -11,6 +11,7 @@ namespace PetesWebThing2.Controllers
 			var cardHandler = new CardHandler(new CardRepository());
 
 			ViewBag.BlackCard = cardHandler.GetBlackCard();
+			ViewBag.WhiteCard = cardHandler.GetWhiteCard();
 
 			return View();
 		}

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace BusinessLogic
 {
@@ -14,6 +15,11 @@ namespace BusinessLogic
 		public string GetBlackCard()
 		{
 			return _cardRepository.GetBlackCards().FirstOrDefault();
+		}
+
+		public string GetWhiteCard()
+		{
+			return _cardRepository.GetWhiteCards().FirstOrDefault();
 		}
 	}
 }

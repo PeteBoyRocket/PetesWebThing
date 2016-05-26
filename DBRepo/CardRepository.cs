@@ -13,5 +13,13 @@ namespace DBRepo
 				return cardsContext.Blacks.Select(o => o.Sentence).ToList();
 			}
 		}
+
+		public IEnumerable<string> GetWhiteCards()
+		{
+			using (var cardsContext = new CardsContext())
+			{
+				return cardsContext.Whites.Select(o => o.Sentence).ToList();
+			}
+		}
 	}
 }
