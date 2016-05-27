@@ -33,7 +33,11 @@ namespace DBRepo
 				}
 				else
 				{
-					existingCard.Sentence = newSentence;
+					existingCard = cardsContext.Blacks.SingleOrDefault(o => o.Sentence == newSentence);
+					if (existingCard == null)
+					{
+						existingCard.Sentence = newSentence;
+					}
 				}
 			}
 		}
@@ -49,7 +53,11 @@ namespace DBRepo
 				}
 				else
 				{
-					existingCard.Sentence = newSentence;
+					existingCard = cardsContext.Whites.SingleOrDefault(o => o.Sentence == newSentence);
+					if (existingCard == null)
+					{
+						existingCard.Sentence = newSentence;
+					}
 				}
 			}
 		}
