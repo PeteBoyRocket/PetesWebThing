@@ -6,11 +6,6 @@ namespace DBRepo
 {
 	public class CardRepository : ICardRepository
 	{
-		//public CardRepository()
-		//{
-		//	Database.SetInitializer(new MigrateDatabaseToLatestVersion<CardsContext, Configuration>());
-		//}
-
 		public IEnumerable<string> GetBlackCards()
 		{
 			using (var cardsContext = new CardsContext())
