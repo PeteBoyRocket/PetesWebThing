@@ -52,6 +52,7 @@
     <Compile Include="Black.cs" />
     <Compile Include="CardRepository.cs" />
     <Compile Include="CardsContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="White.cs" />
   </ItemGroup>
