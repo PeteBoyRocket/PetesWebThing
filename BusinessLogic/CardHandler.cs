@@ -6,8 +6,7 @@ namespace BusinessLogic
     public class CardHandler
     {
         private readonly ICardRepository _cardRepository;
-        // private readonly Random _random = new Random();
-
+     
         public CardHandler(ICardRepository cardRepository)
         {
             _cardRepository = cardRepository;
